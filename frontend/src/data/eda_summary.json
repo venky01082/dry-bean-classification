@@ -1,0 +1,157 @@
+{
+  "total_samples": 13611,
+  "num_features": 16,
+  "num_classes": 7,
+  "class_counts": {
+    "DERMASON": 3546,
+    "SIRA": 2636,
+    "SEKER": 2027,
+    "HOROZ": 1928,
+    "CALI": 1630,
+    "BARBUNYA": 1322,
+    "BOMBAY": 522
+  },
+  "class_percentages": {
+    "DERMASON": 26.05,
+    "SIRA": 19.37,
+    "SEKER": 14.89,
+    "HOROZ": 14.17,
+    "CALI": 11.98,
+    "BARBUNYA": 9.71,
+    "BOMBAY": 3.84
+  },
+  "missing_values": 0,
+  "duplicate_rows": 68,
+  "feature_names": [
+    "Area",
+    "Perimeter",
+    "MajorAxisLength",
+    "MinorAxisLength",
+    "AspectRation",
+    "Eccentricity",
+    "ConvexArea",
+    "EquivDiameter",
+    "Extent",
+    "Solidity",
+    "roundness",
+    "Compactness",
+    "ShapeFactor1",
+    "ShapeFactor2",
+    "ShapeFactor3",
+    "ShapeFactor4"
+  ],
+  "feature_stats": {
+    "Area": {
+      "mean": 53048.2845,
+      "std": 29324.0957,
+      "min": 20420.0,
+      "median": 44652.0,
+      "max": 254616.0
+    },
+    "Perimeter": {
+      "mean": 855.2835,
+      "std": 214.2897,
+      "min": 524.736,
+      "median": 794.941,
+      "max": 1985.37
+    },
+    "MajorAxisLength": {
+      "mean": 320.1419,
+      "std": 85.6942,
+      "min": 183.6012,
+      "median": 296.8834,
+      "max": 738.8602
+    },
+    "MinorAxisLength": {
+      "mean": 202.2707,
+      "std": 44.9701,
+      "min": 122.5127,
+      "median": 192.4317,
+      "max": 460.1985
+    },
+    "AspectRation": {
+      "mean": 1.5832,
+      "std": 0.2467,
+      "min": 1.0249,
+      "median": 1.5511,
+      "max": 2.4303
+    },
+    "Eccentricity": {
+      "mean": 0.7509,
+      "std": 0.092,
+      "min": 0.219,
+      "median": 0.7644,
+      "max": 0.9114
+    },
+    "ConvexArea": {
+      "mean": 53768.2002,
+      "std": 29774.9158,
+      "min": 20684.0,
+      "median": 45178.0,
+      "max": 263261.0
+    },
+    "EquivDiameter": {
+      "mean": 253.0642,
+      "std": 59.1771,
+      "min": 161.2438,
+      "median": 238.438,
+      "max": 569.3744
+    },
+    "Extent": {
+      "mean": 0.7497,
+      "std": 0.0491,
+      "min": 0.5553,
+      "median": 0.7599,
+      "max": 0.8662
+    },
+    "Solidity": {
+      "mean": 0.9871,
+      "std": 0.0047,
+      "min": 0.9192,
+      "median": 0.9883,
+      "max": 0.9947
+    },
+    "roundness": {
+      "mean": 0.8733,
+      "std": 0.0595,
+      "min": 0.4896,
+      "median": 0.8832,
+      "max": 0.9907
+    },
+    "Compactness": {
+      "mean": 0.7999,
+      "std": 0.0617,
+      "min": 0.6406,
+      "median": 0.8013,
+      "max": 0.9873
+    },
+    "ShapeFactor1": {
+      "mean": 0.0066,
+      "std": 0.0011,
+      "min": 0.0028,
+      "median": 0.0066,
+      "max": 0.0105
+    },
+    "ShapeFactor2": {
+      "mean": 0.0017,
+      "std": 0.0006,
+      "min": 0.0006,
+      "median": 0.0017,
+      "max": 0.0037
+    },
+    "ShapeFactor3": {
+      "mean": 0.6436,
+      "std": 0.099,
+      "min": 0.4103,
+      "median": 0.642,
+      "max": 0.9748
+    },
+    "ShapeFactor4": {
+      "mean": 0.9951,
+      "std": 0.0044,
+      "min": 0.9477,
+      "median": 0.9964,
+      "max": 0.9997
+    }
+  }
+}
